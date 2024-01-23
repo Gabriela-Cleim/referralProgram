@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+#header {
+    background: #50a8a0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#content {
+    padding: 20px;
+}
+#rules {
+    margin-top: 20px;
+}
+#terms {
+    display: none;
+    margin-top: 20px;
+}
+#terms-btn {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background: #50a8a0;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+    cursor: pointer;
+}
