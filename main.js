@@ -1,8 +1,9 @@
 function toggleQA() {
-    var terms = document.getElementById('qa');
-    if (terms.style.display === "none") {
-        terms.style.display = "block";
+    var qa = document.getElementById('qa');
+    if (qa.style.display === 'none') {
+        qa.style.display = 'block';
+        qa.scrollIntoView({behavior: 'smooth'});
     } else {
-        terms.style.display = "none";
+        qa.style.display = 'none';
     }
 }
