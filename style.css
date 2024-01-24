@@ -1,40 +1,93 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
+    color: #333;
 }
+
 .container {
-    width: 50%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background: white;
+    border-radius: 8px;
 }
+
 #header {
-    background: #50a8a0;
+    background: #008878;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
+
 #content {
     padding: 20px;
 }
-#rules {
-    margin-top: 20px;
-}
+
 #terms {
     display: none;
     margin-top: 20px;
 }
-#terms-btn {
+
+#qa-btn {
     display: block;
-    width: 200px;
+    width: 500px;
     height: 50px;
-    margin: 20px auto;
-    background: #50a8a0;
+    margin: 10px auto;
+    background: #008878;
     text-align: center;
-    border-radius: 4px;
+    font-size: 20px;
+    border-radius: 25px;
     color: white;
     font-weight: bold;
     line-height: 50px;
     cursor: pointer;
+    
+}
+
+#qa-btn:hover {
+    background: #008878;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+#how-works {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15%;
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+}
+
+#qa{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15%;
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #636e72;
+    text-align: center;
 }
