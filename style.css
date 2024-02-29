@@ -17,12 +17,11 @@ body {
 }
 
 #header {
-    background: #008878;
+    background: #0BA888;
     color: white;
     padding: 20px;
     text-align: center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    
 }
 
 #content {
@@ -36,33 +35,33 @@ body {
 
 #qa-btn {
     display: block;
-    width: 500px;
+    width: 700px;
     height: 50px;
     margin: 10px auto;
     background: #008878;
     text-align: center;
-    font-size: 20px;
-    border-radius: 25px;
+    font-size: 25px;
+    border-radius: 10px;
     color: white;
     font-weight: bold;
     line-height: 50px;
     cursor: pointer;
+    margin-bottom: 40px;
     
 }
 
-#qa-btn:hover {
-    background: #008878;
+img{
+    width: 100%;
+    height: auto;
 }
 
-img {
-    height: auto;
-    width: 100%;
-    margin: 0;
+#img-banner{
+    background-color: #0DBF9A;
 }
 
 #how-works {
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 15%;
     margin: auto;
     width: 60%;
@@ -70,12 +69,18 @@ img {
 }
 
 #qa{
+    cursor: pointer;
     text-align: left;
-    font-size: 20px;
-    margin-top: 15%;
+    font-size: 25px;
     margin: auto;
     width: 60%;
-    padding: 30px;
+    
+}
+
+#pig-img{
+    margin: auto;
+    width: 10%;
+   
 }
 
 h1 {
@@ -90,4 +95,8 @@ h2 {
     font-size: 30px;
     color: #636e72;
     text-align: center;
+}
+
+a{
+    color: #008878;
 }

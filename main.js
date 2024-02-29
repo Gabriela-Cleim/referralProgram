@@ -7,3 +7,4 @@ function toggleQA() {
         qa.style.display = 'none';
     }
 }
+
