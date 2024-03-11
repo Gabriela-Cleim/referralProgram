@@ -10,7 +10,7 @@ function toggleQA() {
 // Inicialização
 var index = 0;
 var topics = document.getElementsByClassName('topic-item');
-var images = ["src/img/xx.png", "src/img/xx.png", "src/img/xx.png"];
+var image = "src/img/first.gif"; // Use apenas uma imagem
 
 // Todos os tópicos começam cinzas
 for (var i = 0; i < topics.length; i++) {
@@ -27,8 +27,8 @@ function changeTopic() {
     topics[index].classList.remove('highlighted');
     topics[index].classList.add('grayed-out');
 
-    // Mudar a imagem
-    document.getElementById('phone-image').src = images[index];
+    // Mudar a imagem para a mesma imagem em todos os tópicos
+    document.getElementById('phone-image').src = image;
 
     // Mover para o próximo tópico
     index = (index + 1) % topics.length;
@@ -39,5 +39,5 @@ function changeTopic() {
 }
 
 // Chamar a função a cada x segundos (por exemplo, 3000 ms)
-setInterval(changeTopic, 3000);
+setInterval(changeTopic, 6100);
 

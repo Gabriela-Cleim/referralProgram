@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     color: #333;
@@ -40,7 +40,7 @@ body {
     margin: 10px auto;
     background: #008878;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 10px;
     color: white;
     font-weight: bold;
@@ -59,19 +59,11 @@ img{
     background-color: #0DBF9A;
 }
 
-#how-works {
-    text-align: left;
-    font-size: 25px;
-    margin-top: 15%;
-    margin: auto;
-    width: 60%;
-    padding: 30px;
-}
 
 #qa{
     cursor: pointer;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     margin: auto;
     width: 60%;
     
@@ -85,14 +77,14 @@ img{
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 25px;
     color: #ffffff;
     text-align: center;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #636e72;
     text-align: center;
 }
@@ -106,12 +98,11 @@ a{
     justify-content: center;
     align-items: center;
 }
-#image-container {
-    max-width: 80%;
-    text-align: center;
-}
+
 #list-container {
     width: 50%;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 .grayed-out {
     color: gray;
@@ -121,4 +112,17 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+#image-container{
+    width: 240px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#phone-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 
