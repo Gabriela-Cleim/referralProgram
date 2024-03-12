@@ -1,12 +1,15 @@
+// JavaScript
 function toggleQA() {
     var qa = document.getElementById('qa');
-    if (qa.style.display === 'none') {
-        qa.style.display = 'block';
-        qa.scrollIntoView({behavior: 'smooth'});
+    if (qa.style.display === "none") {
+        qa.style.display = "block";
+        qa.scrollIntoView({behavior: "smooth"}); // Adiciona rolagem suave
     } else {
-        qa.style.display = 'none';
+        qa.style.display = "none";
     }
 }
+
+
 // Inicialização
 var index = 0;
 var topics = document.getElementsByClassName('topic-item');
